@@ -1,11 +1,114 @@
 @startuml
 'https://plantuml.com/sequence-diagram
-
+!theme _none_
 autonumber
 
-== Initiierung ==
-Initiator ->> Teilnehmer1 : Anfrage über Vorzugstermine uns Ausschlusstermine im Meetingbereich
-Initiator ->> Teilnehmer2 :Anfrage über Vorzugstermine uns Ausschlusstermine im Meetingbereich
+activate Initiator
+Initiator ->> Software : Initiiere Meeting
+activate Software
 
 
+
+loop if Umplanung
+    Initiator -> Software : Meeting-Bereich, Teilnehmer
+    deactivate Initiator
+
+    loop if kein Termin gefunden
+
+        Software ->> Teilnehmer1 : Vorzugstermine?, Ausschlusstermine?, Geräte?
+        activate Teilnehmer1
+        Software ->> Teilnehmer2 : Vorzugstermine?, Ausschlusstermine?, Geräte?
+        activate Teilnehmer2
+
+        alt Teilnahme1
+            Teilnehmer1 ->> Software : Vorzugstermine , Ausschlusstermine, Geräte
+        else Ansage
+            Teilnehmer1 ->> Software : keine Teilnahme
+        end
+        deactivate Teilnehmer1
+
+        alt Teilnahme2
+            Teilnehmer2 ->> Software : Vorzugstermine , Ausschlusstermine, Geräte
+        else Absage2
+            Teilnehmer2 ->> Software : keine Teilnahme
+        end
+        deactivate Teilnehmer2
+
+        Software -> Software : Überschneidung Vorzugstermine?
+        Software -> Software : ist Überschneidung in Ausschlusstermine?
+        opt Konflikt nicht gelöst
+            Software -> Initiator : Meeting-Bereich erweitern?
+            activate Initiator
+            Initiator -->> Software : Meeting-Bereich
+            deactivate Initiator
+        end
+
+
+        break Termin gefunden
+            Software -> Initiator : Termin gefunden, Raum?
+            activate Initiator
+            Initiator -->> Software : Raum
+            deactivate Initiator
+        end
+    end
+
+    Software ->> Teilnehmer1 : Termin, Raum, Terminbestätigung?
+    activate Teilnehmer1
+    Software ->> Teilnehmer2 : Termin, Raum, Terminbestätigung?
+    activate Teilnehmer2
+
+    opt Terminbestätigung1
+        Teilnehmer1 ->> Software : Terminbestätigung
+    end
+    deactivate Teilnehmer1
+    opt Terminbestätigung2
+        Teilnehmer2 ->> Software : Terminbestätigung
+    end
+    deactivate Teilnehmer2
+    Software -> Raumreservierungssystem : Termin, Raum
+    activate Raumreservierungssystem
+    Raumreservierungssystem -> Raumreservierungssystem : Verfügbarkeit überprüfen
+
+    alt Raum verfügbar
+        Raumreservierungssystem -->> Software : Raum verfügbar
+    else Raum belegt
+        Raumreservierungssystem -->> Software : Raum belegt
+        ref over Initiator, Software
+            Umplanung
+        end ref
+        deactivate Raumreservierungssystem
+    end
+
+    Software -> Hausmeister : Geräte, Raum
+    activate Hausmeister
+    alt Geräte sind da
+        Hausmeister -> Hausmeister : Geräte in Raum legen
+        Hausmeister -->> Software : Geräte vorhanden
+        break
+            Software -> Software : Meeting zustandegekommen
+        end
+    else Geräte nicht da
+        Hausmeister -->> Software : Geräte nicht vorhanden
+        deactivate Hausmeister
+        Software -> Initiator : Umplanung?
+        activate Initiator
+        alt Umplanung
+            Initiator -->> Software : Umplanung
+        else Absage Meeting
+            break Absage
+                Initiator -->> Software : Absage
+                deactivate Initiator
+                Software -->> Teilnehmer1 : Meeting abgesagt
+                destroy Teilnehmer1
+                Software -->> Teilnehmer2 : Meeting abgesagt
+                destroy Teilnehmer2
+            end
+        end
+    end
+end
+
+Software ->> Initiator : Raum vorhanden, Geräte vorhanden
+deactivate Software
+activate Initiator
+destroy Initiator
 @enduml
