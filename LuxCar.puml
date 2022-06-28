@@ -1,0 +1,126 @@
+@startuml
+'https://plantuml.com/class-diagram
+!theme plain
+Adresse "1"--"1..*" Mitarbeiter : wohnt <
+Adresse "1"--"1..*" Kunden : wohnt <
+
+Mitarbeiter "1"--"0..*" Beratung : betreut >
+Mitarbeiter "1"--"0..*" Mietvertrag : schließt >
+
+Kunden "1"--"1..*" Beratung : beansprucht >
+
+kfztyp o--"0..*" kfz : zugehörig <
+sonderausstattung "0..*"--"0..*" kfz : verbaut in >
+
+Beratung "1"--"1" Reservierung : führt zu >
+
+Reservierung *--"1" Mietvertrag : resultiert aus <
+
+Rechnung "1"--o Mietvertrag : erzeugt <
+Rechnung "0...*"--"1" Kunden : tilgt <
+
+kfz "1"--"0..*" Reservierung : reserviert <
+Zubehör "0..*"--"0..*" Reservierung : reserviert <
+
+Zubehör "0..*"--"0..*" Beratung : empfiehlt <
+kfztyp "1..*"--"0..*" Beratung : empfiehlt <
+
+sonderausstattung "0..*"--"0--*" Beratung : empfiehlt <
+
+
+class Adresse {
+Straße: String
+Hausnummer: Int
+Ort: String
+PLZ: Number
+Land: String
+}
+
+class Mitarbeiter {
+Personalnummer: Number
+Position: String
+Vorname: String
+Nachname: String
+
+berät(): Beratung
+}
+
+class Kunden {
+Kundennummer: Number
+Titel: String
+Vorname: String
+Nachname: String
+Stammkunde: Boolean
+Adresse: Adresse
+BIC: String
+IBAN: String
+Telefonnummer: Number
+
+äußert_wünsche(): Beratung
+tilgt_rechnung()
+}
+
+class Beratung {
+Kundennummer: Number
+Personalnummer: Number
+WunschTyp: kfztyp[]
+WunschAusstattung: sonderausstattung[]
+WunschZubehör: Zubehör[]
+Datum: Date
+
+erstelle_reservierung(): Reservierung
+}
+
+class kfztyp {
+Bezeichnung: String
+}
+
+class sonderausstattung{
+Bezeichnung: String
+}
+
+class kfz {
+Karosserienummer: Number
+Nummernschild: String
+Modell: Number
+Preis: Float
+FahrzeugKlasse: kfztyp
+Verbaut: sonderausstattung[]
+}
+
+class Zubehör{
+Bezeichnung: String
+Preis: Float
+}
+
+class Reservierung {
+reservierungsnummer
+kundennummer: Number
+Fahrzeug: kfz
+Zubehör: Zubehör[]
+datumVon: Date
+datumBis: Date
+Datum: Date
+
+erstelle_Vertrag(): Mietvertrag
+}
+
+class Mietvertrag {
+kundennummer: Number
+Mitarbeiter: Number
+Rechnungsnummer: Number
+Datum: Date
+
+erstelle_rechnung(): Rechnung
+}
+
+class Rechnung {
+Rechnungsnummer: Number
+Kundennummer: Number
+Rechnungsposition: Object[]
+Datum: Date
+Betrag: Float
+Rabatt: Float
+}
+
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+== Initiierung ==
+Initiator ->> Teilnehmer1 : Anfrage über Vorzugstermine uns Ausschlusstermine im Meetingbereich
+Initiator ->> Teilnehmer2 :Anfrage über Vorzugstermine uns Ausschlusstermine im Meetingbereich
+
+
+@enduml
