@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1583.4px" preserveAspectRatio="none" style="width:1632px;height:1583px;background:#FFFFFF;" version="1.1" viewBox="0 0 1632 1583" width="1632.4px" zoomAndPan="magnify"><defs/><g><!--MD5=[09ce52be0ee7de43c61b6e2d59bf108b]
+class Person--><g id="elem_Person"><rect codeLine="30" fill="#F1F1F1" height="318.1719" id="Person" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.6999999999999998;" width="270.2" x="485.8" y="9.8"/><ellipse cx="581.35" cy="32.2" fill="#A9DCDF" rx="15.4" ry="15.4" style="stroke:#181818;stroke-width:1.3999999999999997;"/><path d="M581.5031,25.6156 L579.8844,33.075 L583.1437,33.075 L581.5031,25.6156 Z M579.425,22.05 L583.6031,22.05 L588.3062,40.25 L584.8719,40.25 L583.8,36.05 L579.2062,36.05 L578.1562,40.25 L574.7437,40.25 L579.425,22.05 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="19.6" font-style="italic" lengthAdjust="spacing" textLength="67.2" x="610.05" y="38.9854">Person</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="487.2" x2="754.6" y1="54.6" y2="54.6"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="114.8" x="494.2" y="78.3932">Titel: String</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="163.8" x="494.2" y="101.2088">Vorname: String</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="179.2" x="494.2" y="124.0244">Nachname: String</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="137.2" x="494.2" y="146.84">Straße: String</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="173.6" x="494.2" y="169.6557">Hausnummer: Int</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="102.2" x="494.2" y="192.4713">Ort: String</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="128.8" x="494.2" y="215.2869">PLZ: Number</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="120.4" x="494.2" y="238.1025">Land: String</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="105" x="494.2" y="260.9182">BIC: String</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="119" x="494.2" y="283.7338">IBAN: String</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="253.4" x="494.2" y="306.5494">Telefonnummer: Number</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="487.2" x2="754.6" y1="316.7719" y2="316.7719"/></g><!--MD5=[cf50a5de139d8ee8ab91969acb1dc454]
+class Mitarbeiter--><g id="elem_Mitarbeiter"><rect codeLine="44" fill="#F1F1F1" height="135.6469" id="Mitarbeiter" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.6999999999999998;" width="280" x="276.5" y="446.6"/><ellipse cx="355.95" cy="469" fill="#ADD1B2" rx="15.4" ry="15.4" style="stroke:#181818;stroke-width:1.3999999999999997;"/><path d="M359.4062,477.225 Q358.5969,477.6625 357.7,477.8812 Q356.8031,478.1 355.8187,478.1 Q352.3187,478.1 350.4594,475.7594 Q348.6219,473.4187 348.6219,469 Q348.6219,464.5812 350.4594,462.2406 Q352.3187,459.9 355.8187,459.9 Q356.8031,459.9 357.7,460.1187 Q358.6187,460.3375 359.4062,460.775 L359.4062,464.6906 Q358.5312,463.9031 357.7,463.5312 Q356.8687,463.1375 355.9937,463.1375 Q354.1125,463.1375 353.15,464.625 Q352.1875,466.1125 352.1875,469 Q352.1875,471.9094 353.15,473.3969 Q354.1125,474.8625 355.9937,474.8625 Q356.8687,474.8625 357.7,474.4906 Q358.5312,474.1187 359.4062,473.3094 L359.4062,477.225 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="109.2" x="384.65" y="475.7854">Mitarbeiter</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="277.9" x2="555.1" y1="491.4" y2="491.4"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="263.2" x="284.9" y="515.1932">Personalnummer: Number</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="148.4" x="284.9" y="538.0088">Position: String</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="277.9" x2="555.1" y1="548.2312" y2="548.2312"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="172.2" x="284.9" y="572.0244">berät(): Beratung</text></g><!--MD5=[4c0f2c208a8b53004bc0d82bfcabe9fa]
+class Kunden--><g id="elem_Kunden"><rect codeLine="51" fill="#F1F1F1" height="158.4625" id="Kunden" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.6999999999999998;" width="298.2" x="606.2" y="435.4"/><ellipse cx="711.55" cy="457.8" fill="#ADD1B2" rx="15.4" ry="15.4" style="stroke:#181818;stroke-width:1.3999999999999997;"/><path d="M715.0062,466.025 Q714.1969,466.4625 713.3,466.6812 Q712.4031,466.9 711.4187,466.9 Q707.9187,466.9 706.0594,464.5594 Q704.2219,462.2187 704.2219,457.8 Q704.2219,453.3812 706.0594,451.0406 Q707.9187,448.7 711.4187,448.7 Q712.4031,448.7 713.3,448.9187 Q714.2187,449.1375 715.0062,449.575 L715.0062,453.4906 Q714.1312,452.7031 713.3,452.3312 Q712.4687,451.9375 711.5937,451.9375 Q709.7125,451.9375 708.75,453.425 Q707.7875,454.9125 707.7875,457.8 Q707.7875,460.7094 708.75,462.1969 Q709.7125,463.6625 711.5937,463.6625 Q712.4687,463.6625 713.3,463.2906 Q714.1312,462.9187 715.0062,462.1094 L715.0062,466.025 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="75.6" x="740.25" y="464.5854">Kunden</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="607.6" x2="903" y1="480.2" y2="480.2"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="253.4" x="614.6" y="503.9932">Kundennummer: Number</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="228.2" x="614.6" y="526.8088">Stammkunde: Boolean</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="607.6" x2="903" y1="537.0312" y2="537.0312"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="281.4" x="614.6" y="560.8244">äußert_wünsche(): Beratung</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="156.8" x="614.6" y="583.64">tilgt_rechnung()</text></g><!--MD5=[28fda5fac8cbea7880fbbaa8c0fc64ea]
+class Beratung--><g id="elem_Beratung"><rect codeLine="59" fill="#F1F1F1" height="226.9094" id="Beratung" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.6999999999999998;" width="427" x="490" y="701.4"/><ellipse cx="651.35" cy="723.8" fill="#ADD1B2" rx="15.4" ry="15.4" style="stroke:#181818;stroke-width:1.3999999999999997;"/><path d="M654.8062,732.025 Q653.9969,732.4625 653.1,732.6812 Q652.2031,732.9 651.2187,732.9 Q647.7187,732.9 645.8594,730.5594 Q644.0219,728.2187 644.0219,723.8 Q644.0219,719.3812 645.8594,717.0406 Q647.7187,714.7 651.2187,714.7 Q652.2031,714.7 653.1,714.9187 Q654.0187,715.1375 654.8062,715.575 L654.8062,719.4906 Q653.9312,718.7031 653.1,718.3312 Q652.2687,717.9375 651.3937,717.9375 Q649.5125,717.9375 648.55,719.425 Q647.5875,720.9125 647.5875,723.8 Q647.5875,726.7094 648.55,728.1969 Q649.5125,729.6625 651.3937,729.6625 Q652.2687,729.6625 653.1,729.2906 Q653.9312,728.9187 654.8062,728.1094 L654.8062,732.025 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="92.4" x="680.05" y="730.5854">Beratung</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="491.4" x2="915.6" y1="746.2" y2="746.2"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="253.4" x="498.4" y="769.9932">Kundennummer: Number</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="263.2" x="498.4" y="792.8088">Personalnummer: Number</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="207.2" x="498.4" y="815.6244">WunschTyp: KfzTyp[]</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="410.2" x="498.4" y="838.44">WunschAusstattung: Sonderausstattung[]</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="275.8" x="498.4" y="861.2557">WunschZubehör: Zubehör[]</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="127.4" x="498.4" y="884.0713">Datum: Date</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="491.4" x2="915.6" y1="894.2937" y2="894.2937"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="371" x="498.4" y="918.0869">erstelle_reservierung(): Reservierung</text></g><!--MD5=[24fb9f9fd25b31e5ea3517ebe2d53a05]
+class Mietvertrag--><g id="elem_Mietvertrag"><rect codeLine="104" fill="#F1F1F1" height="181.2781" id="Mietvertrag" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.6999999999999998;" width="323.4" x="541.8" y="1393"/><ellipse cx="640.15" cy="1415.4" fill="#ADD1B2" rx="15.4" ry="15.4" style="stroke:#181818;stroke-width:1.3999999999999997;"/><path d="M643.6062,1423.625 Q642.7969,1424.0625 641.9,1424.2812 Q641.0031,1424.5 640.0187,1424.5 Q636.5187,1424.5 634.6594,1422.1594 Q632.8219,1419.8187 632.8219,1415.4 Q632.8219,1410.9812 634.6594,1408.6406 Q636.5187,1406.3 640.0187,1406.3 Q641.0031,1406.3 641.9,1406.5187 Q642.8187,1406.7375 643.6062,1407.175 L643.6062,1411.0906 Q642.7312,1410.3031 641.9,1409.9312 Q641.0687,1409.5375 640.1937,1409.5375 Q638.3125,1409.5375 637.35,1411.025 Q636.3875,1412.5125 636.3875,1415.4 Q636.3875,1418.3094 637.35,1419.7969 Q638.3125,1421.2625 640.1937,1421.2625 Q641.0687,1421.2625 641.9,1420.8906 Q642.7312,1420.5187 643.6062,1419.7094 L643.6062,1423.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="114.8" x="668.85" y="1422.1854">Mietvertrag</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="543.2" x2="863.8" y1="1437.8" y2="1437.8"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="252" x="550.2" y="1461.5932">kundennummer: Number</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="201.6" x="550.2" y="1484.4088">Mitarbeiter: Number</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="288.4" x="550.2" y="1507.2244">Rechnungsnummer: Number</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="127.4" x="550.2" y="1530.04">Datum: Date</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="543.2" x2="863.8" y1="1540.2625" y2="1540.2625"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="306.6" x="550.2" y="1564.0557">erstelle_rechnung(): Rechnung</text></g><!--MD5=[2f5df24aa0ef71e7a8e049f37e84a0bd]
+class KfzTyp--><g id="elem_KfzTyp"><rect codeLine="70" fill="#F1F1F1" height="90.0156" id="KfzTyp" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.6999999999999998;" width="217" x="953.4" y="469.7"/><ellipse cx="1023.05" cy="492.1" fill="#ADD1B2" rx="15.4" ry="15.4" style="stroke:#181818;stroke-width:1.3999999999999997;"/><path d="M1026.5062,500.325 Q1025.6969,500.7625 1024.8,500.9812 Q1023.9031,501.2 1022.9187,501.2 Q1019.4187,501.2 1017.5594,498.8594 Q1015.7219,496.5187 1015.7219,492.1 Q1015.7219,487.6812 1017.5594,485.3406 Q1019.4187,483 1022.9187,483 Q1023.9031,483 1024.8,483.2187 Q1025.7187,483.4375 1026.5062,483.875 L1026.5062,487.7906 Q1025.6312,487.0031 1024.8,486.6312 Q1023.9687,486.2375 1023.0937,486.2375 Q1021.2125,486.2375 1020.25,487.725 Q1019.2875,489.2125 1019.2875,492.1 Q1019.2875,495.0094 1020.25,496.4969 Q1021.2125,497.9625 1023.0937,497.9625 Q1023.9687,497.9625 1024.8,497.5906 Q1025.6312,497.2187 1026.5062,496.4094 L1026.5062,500.325 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="65.8" x="1051.75" y="498.8854">KfzTyp</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="954.8" x2="1169" y1="514.5" y2="514.5"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="200.2" x="961.8" y="538.2932">Bezeichnung: String</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="954.8" x2="1169" y1="548.5156" y2="548.5156"/></g><!--MD5=[b47a95cabd2715e98d9a733c20d29793]
+class Kfz--><g id="elem_Kfz"><rect codeLine="78" fill="#F1F1F1" height="204.0937" id="Kfz" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.6999999999999998;" width="310.8" x="966.7" y="712.6"/><ellipse cx="1101.45" cy="735" fill="#ADD1B2" rx="15.4" ry="15.4" style="stroke:#181818;stroke-width:1.3999999999999997;"/><path d="M1104.9062,743.225 Q1104.0969,743.6625 1103.2,743.8812 Q1102.3031,744.1 1101.3187,744.1 Q1097.8187,744.1 1095.9594,741.7594 Q1094.1219,739.4187 1094.1219,735 Q1094.1219,730.5812 1095.9594,728.2406 Q1097.8187,725.9 1101.3187,725.9 Q1102.3031,725.9 1103.2,726.1187 Q1104.1187,726.3375 1104.9062,726.775 L1104.9062,730.6906 Q1104.0312,729.9031 1103.2,729.5312 Q1102.3687,729.1375 1101.4937,729.1375 Q1099.6125,729.1375 1098.65,730.625 Q1097.6875,732.1125 1097.6875,735 Q1097.6875,737.9094 1098.65,739.3969 Q1099.6125,740.8625 1101.4937,740.8625 Q1102.3687,740.8625 1103.2,740.4906 Q1104.0312,740.1187 1104.9062,739.3094 L1104.9062,743.225 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="29.4" x="1130.15" y="741.7854">Kfz</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="968.1" x2="1276.1" y1="757.4" y2="757.4"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="282.8" x="975.1" y="781.1932">Karosserienummer: Number</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="228.2" x="975.1" y="804.0088">Nummernschild: String</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="158.2" x="975.1" y="826.8244">Modell: Number</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="109.2" x="975.1" y="849.64">Preis: Float</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="233.8" x="975.1" y="872.4557">FahrzeugKlasse: KfzTyp</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="294" x="975.1" y="895.2713">Verbaut: Sonderausstattung[]</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="968.1" x2="1276.1" y1="905.4937" y2="905.4937"/></g><!--MD5=[abebcdae9953e59c7199cf7f6cdceacd]
+class Sonderausstattung--><g id="elem_Sonderausstattung"><rect codeLine="74" fill="#F1F1F1" height="90.0156" id="Sonderausstattung" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.6999999999999998;" width="232.4" x="1224.3" y="469.7"/><ellipse cx="1245.3" cy="492.1" fill="#ADD1B2" rx="15.4" ry="15.4" style="stroke:#181818;stroke-width:1.3999999999999997;"/><path d="M1248.7562,500.325 Q1247.9469,500.7625 1247.05,500.9812 Q1246.1531,501.2 1245.1687,501.2 Q1241.6687,501.2 1239.8094,498.8594 Q1237.9719,496.5187 1237.9719,492.1 Q1237.9719,487.6812 1239.8094,485.3406 Q1241.6687,483 1245.1687,483 Q1246.1531,483 1247.05,483.2187 Q1247.9687,483.4375 1248.7562,483.875 L1248.7562,487.7906 Q1247.8812,487.0031 1247.05,486.6312 Q1246.2187,486.2375 1245.3437,486.2375 Q1243.4625,486.2375 1242.5,487.725 Q1241.5375,489.2125 1241.5375,492.1 Q1241.5375,495.0094 1242.5,496.4969 Q1243.4625,497.9625 1245.3437,497.9625 Q1246.2187,497.9625 1247.05,497.5906 Q1247.8812,497.2187 1248.7562,496.4094 L1248.7562,500.325 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="187.6" x="1264.9" y="498.8854">Sonderausstattung</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="1225.7" x2="1455.3" y1="514.5" y2="514.5"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="200.2" x="1232.7" y="538.2932">Bezeichnung: String</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="1225.7" x2="1455.3" y1="548.5156" y2="548.5156"/></g><!--MD5=[2a32407b0d7ed15b8c3aafbcfeea4f78]
+class Reservierung--><g id="elem_Reservierung"><rect codeLine="92" fill="#F1F1F1" height="249.725" id="Reservierung" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.6999999999999998;" width="317.8" x="544.6" y="1036"/><ellipse cx="631.05" cy="1058.4" fill="#ADD1B2" rx="15.4" ry="15.4" style="stroke:#181818;stroke-width:1.3999999999999997;"/><path d="M634.5062,1066.625 Q633.6969,1067.0625 632.8,1067.2812 Q631.9031,1067.5 630.9187,1067.5 Q627.4187,1067.5 625.5594,1065.1594 Q623.7219,1062.8187 623.7219,1058.4 Q623.7219,1053.9812 625.5594,1051.6406 Q627.4187,1049.3 630.9187,1049.3 Q631.9031,1049.3 632.8,1049.5187 Q633.7187,1049.7375 634.5062,1050.175 L634.5062,1054.0906 Q633.6312,1053.3031 632.8,1052.9312 Q631.9687,1052.5375 631.0937,1052.5375 Q629.2125,1052.5375 628.25,1054.025 Q627.2875,1055.5125 627.2875,1058.4 Q627.2875,1061.3094 628.25,1062.7969 Q629.2125,1064.2625 631.0937,1064.2625 Q631.9687,1064.2625 632.8,1063.8906 Q633.6312,1063.5187 634.5062,1062.7094 L634.5062,1066.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="133" x="659.75" y="1065.1854">Reservierung</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="546" x2="861" y1="1080.8" y2="1080.8"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="222.6" x="553" y="1104.5932">reservierungsnummer</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="252" x="553" y="1127.4088">kundennummer: Number</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="134.4" x="553" y="1150.2244">Fahrzeug: Kfz</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="197.4" x="553" y="1173.04">Zubehör: Zubehör[]</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="163.8" x="553" y="1195.8557">datumVon: Date</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="154" x="553" y="1218.6713">datumBis: Date</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="127.4" x="553" y="1241.4869">Datum: Date</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="546" x2="861" y1="1251.7094" y2="1251.7094"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="301" x="553" y="1275.5025">erstelle_Vertrag(): Mietvertrag</text></g><!--MD5=[602515fb88dfc3a8ae14067def011258]
+class Rechnung--><g id="elem_Rechnung"><rect codeLine="113" fill="#F1F1F1" height="204.0937" id="Rechnung" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.6999999999999998;" width="305.2" x="1052.1" y="66.5"/><ellipse cx="1148.35" cy="88.9" fill="#ADD1B2" rx="15.4" ry="15.4" style="stroke:#181818;stroke-width:1.3999999999999997;"/><path d="M1151.8062,97.125 Q1150.9969,97.5625 1150.1,97.7812 Q1149.2031,98 1148.2187,98 Q1144.7187,98 1142.8594,95.6594 Q1141.0219,93.3187 1141.0219,88.9 Q1141.0219,84.4812 1142.8594,82.1406 Q1144.7187,79.8 1148.2187,79.8 Q1149.2031,79.8 1150.1,80.0187 Q1151.0187,80.2375 1151.8062,80.675 L1151.8062,84.5906 Q1150.9312,83.8031 1150.1,83.4312 Q1149.2687,83.0375 1148.3937,83.0375 Q1146.5125,83.0375 1145.55,84.525 Q1144.5875,86.0125 1144.5875,88.9 Q1144.5875,91.8094 1145.55,93.2969 Q1146.5125,94.7625 1148.3937,94.7625 Q1149.2687,94.7625 1150.1,94.3906 Q1150.9312,94.0187 1151.8062,93.2094 L1151.8062,97.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="100.8" x="1177.05" y="95.6854">Rechnung</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="1053.5" x2="1355.9" y1="111.3" y2="111.3"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="288.4" x="1060.5" y="135.0932">Rechnungsnummer: Number</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="253.4" x="1060.5" y="157.9088">Kundennummer: Number</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="280" x="1060.5" y="180.7244">Rechnungsposition: Object[]</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="127.4" x="1060.5" y="203.54">Datum: Date</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="128.8" x="1060.5" y="226.3557">Betrag: Float</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="127.4" x="1060.5" y="249.1713">Rabatt: Float</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="1053.5" x2="1355.9" y1="259.3937" y2="259.3937"/></g><!--MD5=[f968e10855379f48ab65ed2ee8a913f0]
+class Zubehör--><g id="elem_Zubehör"><rect codeLine="87" fill="#F1F1F1" height="112.8312" id="Zubehör" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.6999999999999998;" width="217" x="9.8" y="457.8"/><ellipse cx="69.86" cy="480.2" fill="#ADD1B2" rx="15.4" ry="15.4" style="stroke:#181818;stroke-width:1.3999999999999997;"/><path d="M73.3162,488.425 Q72.5069,488.8625 71.61,489.0812 Q70.7131,489.3 69.7287,489.3 Q66.2287,489.3 64.3694,486.9594 Q62.5319,484.6187 62.5319,480.2 Q62.5319,475.7812 64.3694,473.4406 Q66.2287,471.1 69.7287,471.1 Q70.7131,471.1 71.61,471.3187 Q72.5287,471.5375 73.3162,471.975 L73.3162,475.8906 Q72.4412,475.1031 71.61,474.7312 Q70.7787,474.3375 69.9037,474.3375 Q68.0225,474.3375 67.06,475.825 Q66.0975,477.3125 66.0975,480.2 Q66.0975,483.1094 67.06,484.5969 Q68.0225,486.0625 69.9037,486.0625 Q70.7787,486.0625 71.61,485.6906 Q72.4412,485.3187 73.3162,484.5094 L73.3162,488.425 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="85.4" x="98.14" y="486.9854">Zubehör</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="11.2" x2="225.4" y1="502.6" y2="502.6"/><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="200.2" x="18.2" y="526.3932">Bezeichnung: String</text><text fill="#000000" font-family="sans-serif" font-size="19.6" lengthAdjust="spacing" textLength="109.2" x="18.2" y="549.2088">Preis: Float</text><line style="stroke:#181818;stroke-width:0.6999999999999998;" x1="11.2" x2="225.4" y1="559.4312" y2="559.4312"/></g><!--MD5=[b55e1fc4f5ed1150be76a7fd4391a706]
+reverse link Person to Mitarbeiter--><g id="link_Person_Mitarbeiter"><path codeLine="3" d="M517.44,343.7 C495.656,380.268 473.942,416.696 456.274,446.348 " fill="none" id="Person-backto-Mitarbeiter" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#181818" points="526.778,328.048,517.6649,332.3921,518.1698,342.475,527.2829,338.1309,526.778,328.048" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#000000" points="509.6832,375.5796,499.6665,384.3517,506.7357,388.564,509.6832,375.5796" style="stroke:#000000;stroke-width:1.3999999999999997;"/><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="22.4" x="518.7" y="387.8937">ist</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="32.2" x="427.4032" y="431.2051">0..*</text></g><!--MD5=[9a75953540117165ec725afdb2248dff]
+reverse link Person to Kunden--><g id="link_Person_Kunden"><path codeLine="4" d="M689.472,345.114 C701.89,376.796 714.238,408.31 724.836,435.344 " fill="none" id="Person-backto-Kunden" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#181818" points="682.794,328.048,680.6417,337.9115,688.9187,343.6918,691.0709,333.8283,682.794,328.048" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#000000" points="712.1457,375.0757,712.9357,388.367,720.5973,385.3642,712.1457,375.0757" style="stroke:#000000;stroke-width:1.3999999999999997;"/><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="22.4" x="727.3" y="387.8937">ist</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="32.2" x="686.67" y="419.7456">0..*</text></g><!--MD5=[d0e2bbe5c2457baf22d470ad3620f261]
+link Mitarbeiter to Beratung--><g id="link_Mitarbeiter_Beratung"><path codeLine="6" d="M480.914,582.666 C514.626,617.61 556.808,661.346 595.364,701.302 " fill="none" id="Mitarbeiter-Beratung" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#000000" points="562.7601,652.6308,556.9293,640.6606,551.007,646.374,562.7601,652.6308" style="stroke:#000000;stroke-width:1.3999999999999997;"/><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="65.8" x="570.5" y="653.8937">betreut</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="11.2" x="477.6171" y="610.1532">1</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="32.2" x="551.711" y="685.7681">0..*</text></g><!--MD5=[4dac1c0a85cf46f782e8954fb9ce505f]
+link Mitarbeiter to Mietvertrag--><g id="link_Mitarbeiter_Mietvertrag"><path codeLine="7" d="M411.978,582.638 C405.398,721.168 404.656,1046.878 520.1,1285.2 C539.238,1324.694 569.044,1361.71 599.102,1392.734 " fill="none" id="Mitarbeiter-Mietvertrag" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#000000" points="440.4754,989.0134,441.6344,975.7491,433.6165,977.6012,440.4754,989.0134" style="stroke:#000000;stroke-width:1.3999999999999997;"/><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="71.4" x="451.5" y="988.4937">schließt</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="11.2" x="399.4179" y="610.1214">1</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="32.2" x="553.7225" y="1377.5466">0..*</text></g><!--MD5=[4b777deaf0738b66bef4d9ddf8a37be4]
+link Kunden to Beratung--><g id="link_Kunden_Beratung"><path codeLine="9" d="M711.83,593.936 C706.062,607.46 701.064,621.67 697.9,635.6 C693.14,656.53 691.376,679.196 691.334,701.12 " fill="none" id="Kunden-Beratung" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#000000" points="703.5853,654.4684,710.0049,642.8034,701.9224,641.2579,703.5853,654.4684" style="stroke:#000000;stroke-width:1.3999999999999997;"/><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="112" x="717.5" y="653.8937">beansprucht</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="11.2" x="694.6496" y="621.7859">1</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="32.2" x="656.6166" y="685.9573">1..*</text></g><!--MD5=[dbcb7775cbb230f52061608654dcc665]
+reverse link KfzTyp to Kfz--><g id="link_KfzTyp_Kfz"><path codeLine="11" d="M1050.14,577.822 C1047.242,603.33 1046.388,633.01 1052.1,659.4 C1055.922,677.054 1061.956,695.114 1068.9,712.362 " fill="none" id="KfzTyp-backto-Kfz" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="none" points="1052.618,559.692,1045.9333,567.2573,1050.3456,576.3376,1057.0303,568.7723,1052.618,559.692" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#000000" points="1058.1333,640.66,1055.807,653.77,1063.9572,652.6336,1058.1333,640.66" style="stroke:#000000;stroke-width:1.3999999999999997;"/><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="89.6" x="1071.7" y="653.8937">zugehörig</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="32.2" x="1029.8783" y="697.1625">0..*</text></g><!--MD5=[8b3e9bebde40ab473fee17bf72e7c96f]
+link Sonderausstattung to Kfz--><g id="link_Sonderausstattung_Kfz"><path codeLine="12" d="M1347.766,559.3 C1350.622,589.204 1349.964,628.894 1333.5,659.4 C1319.808,684.768 1299.9,707.028 1277.696,726.166 " fill="none" id="Sonderausstattung-Kfz" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#000000" points="1346.1898,654.047,1354.8862,643.9645,1347.299,640.7785,1346.1898,654.047" style="stroke:#000000;stroke-width:1.3999999999999997;"/><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="92.4" x="1361.5" y="653.8937">verbaut in</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="32.2" x="1313.744" y="587.5756">0..*</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="32.2" x="1288.6953" y="715.7246">0..*</text></g><!--MD5=[b1774fca277e77c19966fcad3aa3bde1]
+link Beratung to Reservierung--><g id="link_Beratung_Reservierung"><path codeLine="14" d="M703.5,928.508 C703.5,962.892 703.5,1000.902 703.5,1035.972 " fill="none" id="Beratung-Reservierung" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#000000" points="710.5,989.193,714.6145,976.5298,706.3855,976.5298,710.5,989.193" style="stroke:#000000;stroke-width:1.3999999999999997;"/><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="70" x="723.1" y="988.4937">führt zu</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="11.2" x="691.8012" y="956.4673">1</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="11.2" x="691.8362" y="1020.6613">1</text></g><!--MD5=[0306cce32b82aeb00ea4208eb4039766]
+reverse link Reservierung to Mietvertrag--><g id="link_Reservierung_Mietvertrag"><path codeLine="16" d="M703.5,1303.498 C703.5,1333.92 703.5,1365.252 703.5,1392.986 " fill="none" id="Reservierung-backto-Mietvertrag" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#181818" points="703.5,1285.228,697.9,1293.628,703.5,1302.028,709.1,1293.628,703.5,1285.228" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#000000" points="710.5,1332.193,706.3855,1344.8561,714.6145,1344.8561,710.5,1332.193" style="stroke:#000000;stroke-width:1.3999999999999997;"/><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="120.4" x="723.1" y="1345.4937">resultiert aus</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="11.2" x="691.6525" y="1377.1946">1</text></g><!--MD5=[e81d2797a97676eb86fe590ee36d7753]
+link Rechnung to Mietvertrag--><g id="link_Rechnung_Mietvertrag"><path codeLine="18" d="M1357.636,254.212 C1443.554,313.74 1533.7,402.528 1533.7,513.1 C1533.7,513.1 1533.7,513.1 1533.7,1162 C1533.7,1300.264 1127.714,1401.582 883.554,1450.022 " fill="none" id="Rechnung-to-Mietvertrag" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="none" points="865.536,1453.564,874.8603,1457.434,882.0189,1450.3154,872.6946,1446.4454,865.536,1453.564" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#000000" points="1543.2798,808.3857,1534.788,818.6411,1542.4378,821.6738,1543.2798,808.3857" style="stroke:#000000;stroke-width:1.3999999999999997;"/><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="68.6" x="1553.3" y="821.1937">erzeugt</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="11.2" x="1368.2876" y="255.1621">1</text></g><!--MD5=[3c736f5a2ed1a0348cebdf3799c46fa6]
+link Rechnung to Kunden--><g id="link_Rechnung_Kunden"><path codeLine="19" d="M1072.302,271.152 C1003.562,323.624 920.864,386.736 857.178,435.344 " fill="none" id="Rechnung-Kunden" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#000000" points="951.2644,377.346,938.702,381.7582,943.6946,388.2996,951.2644,377.346" style="stroke:#000000;stroke-width:1.3999999999999997;"/><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="36.4" x="958.3" y="387.8937">tilgt</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="37.8" x="1020.0814" y="298.8348">0...*</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="11.2" x="858.3136" y="419.7456">1</text></g><!--MD5=[881353333260efe4dee998458ae975ef]
+link Kfz to Reservierung--><g id="link_Kfz_Reservierung"><path codeLine="21" d="M998.774,917.252 C953.428,954.408 901.572,996.898 854.112,1035.79 " fill="none" id="Kfz-Reservierung" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#000000" points="937.1144,977.7563,924.7118,982.5998,929.9274,988.9648,937.1144,977.7563" style="stroke:#000000;stroke-width:1.3999999999999997;"/><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="88.2" x="944.3" y="988.4937">reserviert</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="11.2" x="975.2857" y="944.9348">1</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="32.2" x="833.0513" y="1020.4643">0..*</text></g><!--MD5=[e8b5b94402e53519244c81cafc3ed1a7]
+link Zubehör to Reservierung--><g id="link_Zubehör_Reservierung"><path codeLine="22" d="M132.678,571.396 C160.426,668.64 229.922,871.122 354.9,994 C407.554,1045.772 479.514,1083.586 544.376,1109.864 " fill="none" id="Zubehör-Reservierung" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#000000" points="298.8483,809.3321,303.2711,821.8909,309.8083,816.8927,298.8483,809.3321" style="stroke:#000000;stroke-width:1.3999999999999997;"/><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="88.2" x="315.7" y="821.1937">reserviert</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="32.2" x="100.2143" y="598.6674">0..*</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="32.2" x="500.9507" y="1101.8239">0..*</text></g><!--MD5=[28d53a735fd1fdd4e268cb2f750c99d6]
+link Zubehör to Beratung--><g id="link_Zubehör_Beratung"><path codeLine="24" d="M212.184,571.298 C225.694,578.942 239.498,586.572 252.7,593.6 C329.182,634.284 414.316,676.55 489.818,713.02 " fill="none" id="Zubehör-Beratung" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#000000" points="375.2653,644.4104,384.6733,653.8324,388.4146,646.5031,375.2653,644.4104" style="stroke:#000000;stroke-width:1.3999999999999997;"/><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="88.2" x="394.1" y="653.8937">empfiehlt</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="32.2" x="191.8947" y="598.5544">0..*</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="32.2" x="446.4879" y="703.4769">0..*</text></g><!--MD5=[98c7ce4588847d212f8a860f3cef3fae]
+link KfzTyp to Beratung--><g id="link_KfzTyp_Beratung"><path codeLine="25" d="M1009.4,559.482 C964.586,596.68 898.128,651.854 838.586,701.274 " fill="none" id="KfzTyp-Beratung" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#000000" points="925.8861,643.122,913.5146,648.0442,918.7705,654.376,925.8861,643.122" style="stroke:#000000;stroke-width:1.3999999999999997;"/><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="88.2" x="933.1" y="653.8937">empfiehlt</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="32.2" x="963.0512" y="587.7951">1..*</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="32.2" x="817.355" y="685.7375">0..*</text></g><!--MD5=[9e10bd8b2ada53fa9596117f8fb561a2]
+link Sonderausstattung to Beratung--><g id="link_Sonderausstattung_Beratung"><path codeLine="27" d="M1300.25,559.902 C1267.826,592.55 1219.372,635.39 1168.3,659.4 C1076.082,702.758 1039.92,670.222 942.9,701.4 C934.388,704.144 925.778,707.112 917.14,710.262 " fill="none" id="Sonderausstattung-Beratung" style="stroke:#181818;stroke-width:1.3999999999999997;"/><polygon fill="#000000" points="1218.2161,645.0356,1204.9252,645.8319,1207.9316,653.492,1218.2161,645.0356" style="stroke:#000000;stroke-width:1.3999999999999997;"/><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="88.2" x="1224.3" y="653.8937">empfiehlt</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="32.2" x="1256.9561" y="587.7787">0..*</text><text fill="#000000" font-family="sans-serif" font-size="18.2" lengthAdjust="spacing" textLength="35" x="923.103" y="697.0121">0--*</text></g><!--MD5=[0e2eec511a2e1020c67d48ffce4e95fd]
+@startuml
+'https://plantuml.com/class-diagram
+
+Person *- -"0..*" Mitarbeiter : ist <
+Person *- -"0..*" Kunden : ist <
+
+Mitarbeiter "1"- -"0..*" Beratung : betreut >
+Mitarbeiter "1"- -"0..*" Mietvertrag : schließt >
+
+Kunden "1"- -"1..*" Beratung : beansprucht >
+
+KfzTyp o- -"0..*" Kfz : zugehörig <
+Sonderausstattung "0..*"- -"0..*" Kfz : verbaut in >
+
+Beratung "1"- -"1" Reservierung : führt zu >
+
+Reservierung *- -"1" Mietvertrag : resultiert aus <
+
+Rechnung "1"- -o Mietvertrag : erzeugt <
+Rechnung "0...*"- -"1" Kunden : tilgt <
+
+Kfz "1"- -"0..*" Reservierung : reserviert <
+Zubehör "0..*"- -"0..*" Reservierung : reserviert <
+
+Zubehör "0..*"- -"0..*" Beratung : empfiehlt <
+KfzTyp "1..*"- -"0..*" Beratung : empfiehlt <
+
+Sonderausstattung "0..*"- -"0- -*" Beratung : empfiehlt <
+
+
+abstract class Person {
+Titel: String
+Vorname: String
+Nachname: String
+Straße: String
+Hausnummer: Int
+Ort: String
+PLZ: Number
+Land: String
+BIC: String
+IBAN: String
+Telefonnummer: Number
+}
+
+class Mitarbeiter {
+Personalnummer: Number
+Position: String
+
+berät(): Beratung
+}
+
+class Kunden {
+Kundennummer: Number
+Stammkunde: Boolean
+
+äußert_wünsche(): Beratung
+tilgt_rechnung()
+}
+
+class Beratung {
+Kundennummer: Number
+Personalnummer: Number
+WunschTyp: KfzTyp[]
+WunschAusstattung: Sonderausstattung[]
+WunschZubehör: Zubehör[]
+Datum: Date
+
+erstelle_reservierung(): Reservierung
+}
+
+class KfzTyp {
+Bezeichnung: String
+}
+
+class Sonderausstattung{
+Bezeichnung: String
+}
+
+class Kfz {
+Karosserienummer: Number
+Nummernschild: String
+Modell: Number
+Preis: Float
+FahrzeugKlasse: KfzTyp
+Verbaut: Sonderausstattung[]
+}
+
+class Zubehör{
+Bezeichnung: String
+Preis: Float
+}
+
+class Reservierung {
+reservierungsnummer
+kundennummer: Number
+Fahrzeug: Kfz
+Zubehör: Zubehör[]
+datumVon: Date
+datumBis: Date
+Datum: Date
+
+erstelle_Vertrag(): Mietvertrag
+}
+
+class Mietvertrag {
+kundennummer: Number
+Mitarbeiter: Number
+Rechnungsnummer: Number
+Datum: Date
+
+erstelle_rechnung(): Rechnung
+}
+
+class Rechnung {
+Rechnungsnummer: Number
+Kundennummer: Number
+Rechnungsposition: Object[]
+Datum: Date
+Betrag: Float
+Rabatt: Float
+}
+
+@enduml
+
+@startuml
+
+Person *- -"0..*" Mitarbeiter : ist <
+Person *- -"0..*" Kunden : ist <
+
+Mitarbeiter "1"- -"0..*" Beratung : betreut >
+Mitarbeiter "1"- -"0..*" Mietvertrag : schließt >
+
+Kunden "1"- -"1..*" Beratung : beansprucht >
+
+KfzTyp o- -"0..*" Kfz : zugehörig <
+Sonderausstattung "0..*"- -"0..*" Kfz : verbaut in >
+
+Beratung "1"- -"1" Reservierung : führt zu >
+
+Reservierung *- -"1" Mietvertrag : resultiert aus <
+
+Rechnung "1"- -o Mietvertrag : erzeugt <
+Rechnung "0...*"- -"1" Kunden : tilgt <
+
+Kfz "1"- -"0..*" Reservierung : reserviert <
+Zubehör "0..*"- -"0..*" Reservierung : reserviert <
+
+Zubehör "0..*"- -"0..*" Beratung : empfiehlt <
+KfzTyp "1..*"- -"0..*" Beratung : empfiehlt <
+
+Sonderausstattung "0..*"- -"0- -*" Beratung : empfiehlt <
+
+
+abstract class Person {
+Titel: String
+Vorname: String
+Nachname: String
+Straße: String
+Hausnummer: Int
+Ort: String
+PLZ: Number
+Land: String
+BIC: String
+IBAN: String
+Telefonnummer: Number
+}
+
+class Mitarbeiter {
+Personalnummer: Number
+Position: String
+
+berät(): Beratung
+}
+
+class Kunden {
+Kundennummer: Number
+Stammkunde: Boolean
+
+äußert_wünsche(): Beratung
+tilgt_rechnung()
+}
+
+class Beratung {
+Kundennummer: Number
+Personalnummer: Number
+WunschTyp: KfzTyp[]
+WunschAusstattung: Sonderausstattung[]
+WunschZubehör: Zubehör[]
+Datum: Date
+
+erstelle_reservierung(): Reservierung
+}
+
+class KfzTyp {
+Bezeichnung: String
+}
+
+class Sonderausstattung{
+Bezeichnung: String
+}
+
+class Kfz {
+Karosserienummer: Number
+Nummernschild: String
+Modell: Number
+Preis: Float
+FahrzeugKlasse: KfzTyp
+Verbaut: Sonderausstattung[]
+}
+
+class Zubehör{
+Bezeichnung: String
+Preis: Float
+}
+
+class Reservierung {
+reservierungsnummer
+kundennummer: Number
+Fahrzeug: Kfz
+Zubehör: Zubehör[]
+datumVon: Date
+datumBis: Date
+Datum: Date
+
+erstelle_Vertrag(): Mietvertrag
+}
+
+class Mietvertrag {
+kundennummer: Number
+Mitarbeiter: Number
+Rechnungsnummer: Number
+Datum: Date
+
+erstelle_rechnung(): Rechnung
+}
+
+class Rechnung {
+Rechnungsnummer: Number
+Kundennummer: Number
+Rechnungsposition: Object[]
+Datum: Date
+Betrag: Float
+Rabatt: Float
+}
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 12:55:52 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: de
+Country: DE
+--></g></svg>

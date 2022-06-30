@@ -98,9 +98,9 @@ loop if Umplanung
             break Absage
                 Initiator -->> Software : Absage
                 deactivate Initiator
-                Software -->> Teilnehmer1 : Meeting abgesagt
+                Software ->> Teilnehmer1 : Meeting abgesagt
                 destroy Teilnehmer1
-                Software -->> Teilnehmer2 : Meeting abgesagt
+                Software ->> Teilnehmer2 : Meeting abgesagt
                 destroy Teilnehmer2
             end
         end
